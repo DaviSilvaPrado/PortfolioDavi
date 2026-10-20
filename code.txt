@@ -1,0 +1,90 @@
+ <div class="apresent">
+            <h2 class="soueu">< hello, <span class="span1">i'm</span></h2>
+            <h1>davi</h1>
+            <h2 class="sou">Create developer <br>& web designer</h2>
+            
+            <div class="bloco1"><span class="span2">i build digital experiences <br>
+                with a nostalgic, aesthetic<br> 
+                and emotional touch.</span><br>
+                code is my way of creating <br>
+                something that feels like me.</div>
+
+            <img class="flor" src="flor.png">
+        </div>
+        <div class="eu">
+            <div></div>
+            <div></div>
+        </div>
+
+
+
+.apresent{
+    color: white;
+    padding-left: 7vh;
+}
+
+h2{
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.span1{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 35px;
+}
+
+.soueu{
+    color: #EEB74D;
+    padding-bottom: 15px;
+}
+
+h1{
+    color: #EEB74D;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 85px;
+}
+
+.sou{
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.bloco1{
+  height: 20vh;
+  width: 38vh;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.50);
+  backdrop-filter: blur(1px);
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  opacity: 80;
+  border: solid 0.35vh;
+  border-color: #745B2A;
+  padding-left: 2vh;
+  padding-top: 1vh;
+  letter-spacing: 1px;
+  line-height: 32px;
+}
+
+.span2{
+    color: #EEB74D;
+}
+
+.flor{
+    height: 63vh;
+    width: 84vh;
+    opacity: 60;
+    position: relative;
+    left: -275px;
+    bottom: 195px;
+    z-index: -10;
+}
